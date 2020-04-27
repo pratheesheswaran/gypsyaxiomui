@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <div className='nav-bar'><a href="https://twitter.com/gypsyaxiom" target="_blank">@gypsyaxiom</a></div>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
