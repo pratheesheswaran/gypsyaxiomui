@@ -5,7 +5,7 @@ export default class App extends Component {
 
   state = {
     wit: {
-      sayings:'',
+      sayings:'Hi.',
       film:''
     },
     loading: false
@@ -43,6 +43,7 @@ export default class App extends Component {
               url={'.'}
               title={this.state.wit.sayings}
               className="twitter-share-btn"
+              target="_blank"
             >
               <TwitterIcon size={32} round className='twt-icon' />
             </TwitterShareButton>
