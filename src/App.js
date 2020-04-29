@@ -40,7 +40,7 @@ export default class App extends Component {
         <div className="fixed-bottom">
           <div className='share'>
             <TwitterShareButton
-              url={'.'}
+              url={'@gypsyaxiom`'}
               title={this.state.wit.sayings}
               className="twitter-share-btn"
               target="_blank"
